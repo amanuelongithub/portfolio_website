@@ -1,13 +1,31 @@
+@font-face {
+  font-family:Foundry-Font;
+  src: url('./font/Foundry-Font.ttf') format("truetype");
+}
+@font-face {
+  font-family:HandoSoft-Medium;
+  src: url('./font/HandoSoft-Medium.ttf') format("truetype");
+}
+@font-face {
+  font-family:Efimah;
+  src: url('./font/Efimah.ttf') format("truetype");
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 
+     sans-serif; */
+  src: local("HandoSoft-Medium"), url("./font/HandoSoft-Medium.ttf") format("truetype");   
+  font-family: "HandoSoft-Medium";
+  font-weight: normal;
+  
+  
+  /* -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;*/
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: "HandoSoft-Medium",;
+  /* font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace; */
 }

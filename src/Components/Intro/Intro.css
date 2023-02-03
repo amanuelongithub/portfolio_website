@@ -1,0 +1,204 @@
+.intro {
+  height: 120vh;
+  background: linear-gradient(300deg, rgb(96, 149, 149) 0%, white 70%);
+  /* background: linear-gradient(300deg, rgb(96, 149, 149) 0.00%, rgb(34, 36, 74) 50.00%); */
+  display: flex;
+  padding: 0 1rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.i-left {
+  width: 50%;
+  /* background-color: aqua; */
+  display: block;
+}
+.i-button {
+  width: 10%;
+  height: 1rem;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+.i-box {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+}
+.links > * {
+  display: block;
+}
+/* ******************************************** */
+.name {
+  /* word-spacing: 30px; */
+  /* letter-spacing: 10px; */
+}
+
+.introduce > * {
+  display: block;
+}
+.introduce > :nth-child(1) {
+  /* color: pink; */
+  font-size: 3rem;
+
+  font-family: "Efimah";
+  color: var(--seccolor2);
+  font-weight: bold;
+  font-size: 3rem;
+}
+span > div {
+  font-size: 3rem;
+
+  font-family: "Efimah";
+  color: var(--seccolor);
+
+  font-weight: bold;
+  font-size: 3rem;
+}
+span > p {
+  font-family: "Efimah";
+  font-size: 3rem;
+  color: var(--seccolor);
+}
+.introduce > :nth-child(2) {
+  color: var(--seccolor);
+  /* color: var(--black); */
+  font-weight: bold;
+  font-size: 3rem;
+  font-family: "Efimah";
+  display: flex;
+  align-items: center;
+}
+.introduce > :nth-child(3) {
+  /* color: var(--maincolor); */
+  color: var(--seccolor);
+  font-weight: bold;
+  font-size: 2rem;
+}
+.introduce > :nth-child(4) {
+  color: var(--gray);
+  font-weight: normal;
+  margin-top: 1rem;
+  /* font-size: 2rem; */
+}
+
+.i-icons {
+  /* width: 10%; */
+  /* margin-left: 2rem; */
+  display: block;
+  margin: auto 1rem;
+}
+.i-icons > * {
+  width: 2em;
+  display: block;
+  /* background-color: aqua; */
+  /* padding-top: 20px; */
+  /* gap: 3rem; */
+
+  margin-bottom: 2rem;
+}
+.i-icons > img:hover {
+  cursor: pointer;
+}
+
+.i-right {
+  width: 900px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.i-right > img {
+  width: 100%;
+  /* height: 100%; */
+}
+
+@media screen and (max-width: 1300px) {
+  .i-box {
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .i-right > img {
+    margin-top: 4rem;
+    width: 75%;
+    align-items: center;
+    /* height: 100%; */
+  }
+
+  .intro {
+    height: 175vh;
+    justify-content: center;
+    align-items: center;
+  }
+  .i-button {
+    width: 20%;
+  }
+  .i-left {
+    width: 90%;
+    /* background-color: aqua; */
+    display: block;
+  }
+}
+@media screen and (max-width: 1035px) {
+  .i-icons {
+    display: none;
+  }
+}
+@media screen and (max-width: 830px) {
+  .i-left {
+    width: 70%;
+    /* background-color: aqua; */
+    display: block;
+  }
+}
+@media screen and (max-width: 680px) {
+  .i-left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .i-button{
+    width: 100%;
+  }
+}
+  
+@media screen and (max-width: 580px) {
+  .i-left>* {
+    /* width: 80%; */
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .name {
+   display: flex;
+   flex-direction: column; 
+  }
+
+  .introduce > :nth-child(4) {
+    width: 70%;
+  }
+  .i-right > img {
+    width: 50%;
+  }
+}
+
+
+@media screen and (max-width: 450px) {
+  .i-button{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .i-button{
+    width: 100%;
+  }
+}
