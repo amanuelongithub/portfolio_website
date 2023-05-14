@@ -6,9 +6,6 @@
   align-items: center;
   justify-content: space-evenly;
 }
-.left {
-  /* background-color: aqua; */
-}
 .awesome {
   display: flex;
   flex-direction: column;

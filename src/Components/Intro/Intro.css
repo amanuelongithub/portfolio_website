@@ -13,6 +13,9 @@
   /* background-color: aqua; */
   display: block;
 }
+#i-intro{
+  width: 85%;
+}
 .i-button {
   width: 10%;
   height: 1rem;
@@ -30,10 +33,6 @@
   display: block;
 }
 /* ******************************************** */
-.name {
-  /* word-spacing: 30px; */
-  /* letter-spacing: 10px; */
-}
 
 .introduce > * {
   display: block;
@@ -163,13 +162,13 @@ span > p {
     align-items: center;
     justify-content: center;
   }
-  .i-button{
+  .i-button {
     width: 100%;
   }
 }
-  
+
 @media screen and (max-width: 580px) {
-  .i-left>* {
+  .i-left > * {
     /* width: 80%; */
     /* background-color: aquamarine; */
     display: flex;
@@ -178,8 +177,8 @@ span > p {
     justify-content: center;
   }
   .name {
-   display: flex;
-   flex-direction: column; 
+    display: flex;
+    flex-direction: column;
   }
 
   .introduce > :nth-child(4) {
@@ -190,15 +189,14 @@ span > p {
   }
 }
 
-
 @media screen and (max-width: 450px) {
-  .i-button{
+  .i-button {
     width: 100%;
   }
 }
 
 @media screen and (max-width: 480px) {
-  .i-button{
+  .i-button {
     width: 100%;
   }
 }

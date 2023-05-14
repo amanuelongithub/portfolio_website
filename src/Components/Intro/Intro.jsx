@@ -1,6 +1,5 @@
 import React from "react";
 import "./Intro.css";
-import glassesimoji from "../../img/glassesimoji.png";
 import Github from "../../img/github.svg";
 import Githubw from "../../img/githubw.svg";
 import Instagram from "../../img/instagram.svg";
@@ -9,7 +8,6 @@ import FaceBook from "../../img/fb.svg";
 import FaceBookw from "../../img/fbw.svg";
 import Twitter from "../../img/twitter.svg";
 import Twitterw from "../../img/twitterw.svg";
-import { motion } from "framer-motion";
 import { useContext } from "react";
 import { themeContext } from "../../Context";
 import Programming_bro from "../../img/Hand coding.svg";
@@ -19,10 +17,6 @@ const Intro = () => {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
 
-  const transition = {
-    duration: 1,
-    type: "spring",
-  };
   var openbrace = "{";
   var closebrace = "}";
 
@@ -126,9 +120,10 @@ const Intro = () => {
             <span>
               {openbrace}Developer{closebrace}
             </span>
-            <span>
-              Full Stack Developer with high level of experience in Mobile App
-              and website design & development. produce the Quality work.
+            <span id='i-intro'>
+              Full Stack Developer and Graphics Designer with high level of
+              experience in Mobile App and website design & development. produce
+              the Quality work.
             </span>
           </div>
 
