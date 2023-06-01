@@ -1,57 +1,62 @@
-.n-nav{
-    width: 100%;
-    position: fixed;
-    height: 4.3rem;
-    background-color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    z-index: 1;
+.n-nav {
+  width: 100%;
+  position: fixed;
+  height: 4.3rem;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  z-index: 1;
+  transition: .3s; 
 }
-.n-left{
- display: flex;
 
- align-items: center;
- justify-content: center;
- gap: 1rem;
+.n-nav.sticky {
+  height: 4rem;
+  background-color: white;
+  box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);
 }
-.n-left>span{
+.n-left {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.n-left > span {
   font-weight: 700;
   color: var(--seccolor);
-  font-family: 'Efimah';
+  font-family: "Efimah";
 }
-.n-right{
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   gap:2rem;
+.n-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
 }
 
-.n-list>*{
-    list-style: none;
-    display: flex;
-    gap: 2rem;
-    align-items: center;
-    justify-content: center;
-  }
+.n-list > * {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
 
-  nav ul li a{
-    gap: 2rem;
-  }
-li:hover{
+nav ul li a {
+  gap: 2rem;
+}
+li:hover {
   cursor: pointer;
   /* border-radius: 7px; */
   /* padding: 4px 7px; */
   color: var(--seccolor2);
   /* background-color: var(--maincolor); */
-  transition: .6s;
+  transition: 0.6s;
 }
 
-
-  @media screen and (max-width: 830px) {
-    .n-list>*{
-      gap: 1rem;
-  
+@media screen and (max-width: 830px) {
+  .n-list > * {
+    gap: 1rem;
   }
 }
 @media screen and (max-width: 680px) {
@@ -63,13 +68,13 @@ li:hover{
   .n-nav {
     height: 3rem;
   }
-  .n-left{
+  .n-left {
     gap: 10px;
-   }
-   .n-left>span{
-     font-size: 18px;
-   }
-   .n-button{
-     font-size: 15px;
-   }
+  }
+  .n-left > span {
+    font-size: 18px;
+  }
+  .n-button {
+    font-size: 15px;
+  }
 }
