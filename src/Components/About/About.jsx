@@ -41,9 +41,9 @@ const About = () => {
               color: darkMode ? "var(--txtbcolor)" : "",
             }}
           >
-            Currently working full time as a graphic designer at Arc
-            Advertisment company and for two companies on mobile applications
-            development.
+            I am currently working full-time as a graphic designer at Arc
+            Advertising and i am working on mobile application development for
+            two companies.
             <br />
             My interests mostly includes Mobile & Web Application development
             Web Design and programme matter.
