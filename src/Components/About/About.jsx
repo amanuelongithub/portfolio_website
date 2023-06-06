@@ -42,7 +42,7 @@ const About = () => {
             }}
           >
             Currently working full time as a graphic designer at Arc
-            Advertisment company. and for two companies on mobile applications
+            Advertisment company and for two companies on mobile applications
             development.
             <br />
             My interests mostly includes Mobile & Web Application development
