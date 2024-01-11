@@ -3,7 +3,7 @@
   src: url('./font/Foundry-Font.ttf') format("truetype");
 } */
 :root {
-  --maincolor: #0dd806;
+  --maincolor: #06d8bc;
   --seccolor: #038d94;
   --seccolor2: #fbca03;
   --txtbcolor: rgb(209, 209, 209);
