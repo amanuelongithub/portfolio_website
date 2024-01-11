@@ -26,7 +26,7 @@ const Experiance = () => {
             color: darkMode ? "black" : "",
           }}
         >
-          <h3>1</h3>
+          <h3>1.5</h3>
           <p>Years of Experiace</p>
         </div>
 
@@ -46,7 +46,7 @@ const Experiance = () => {
             color: darkMode ? "black" : "",
           }}
         >
-          <h3>4</h3>
+          <h3>5</h3>
           <p>Company</p>
         </div>
       </div>

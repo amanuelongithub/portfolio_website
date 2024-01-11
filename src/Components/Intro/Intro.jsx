@@ -17,8 +17,8 @@ const Intro = () => {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
 
-  var openbrace = "{";
-  var closebrace = "}";
+  // var openbrace = "{";
+  // var closebrace = "}";
 
   return (
     <div
@@ -117,9 +117,7 @@ const Intro = () => {
               <p>Amanuel&nbsp;</p>
               <p>Gulelat</p>
             </span>
-            <span>
-              {openbrace}Developer{closebrace}
-            </span>
+            <span></span>
             <span id='i-intro'>
               Full Stack Developer and Graphics Designer with high level of
               experience in Mobile App and website design & development. produce
