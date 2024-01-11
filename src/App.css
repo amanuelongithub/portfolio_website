@@ -2,37 +2,37 @@
   font-family:Foundry-Font;
   src: url('./font/Foundry-Font.ttf') format("truetype");
 } */
-:root
-{
-    --maincolor: #06d8bc;
-    --seccolor : #038d94;
-    --seccolor2 : #fbca03;
-    --txtbcolor: rgb(209, 209, 209);
-    --black : #1d2439;
-    --gray : #7c7c7c;
-    --blueCard : #DDF8FE;
-    --purple: rgb(238 210 255);
-    --boxShadow : 0px 19px 60px rgb(0 0 0 / 8%);
-    --cardColor: rgba(42, 31, 252, 0.45);
-    --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);}
+:root {
+  --maincolor: #0dd806;
+  --seccolor: #038d94;
+  --seccolor2: #fbca03;
+  --txtbcolor: rgb(209, 209, 209);
+  --black: #1d2439;
+  --gray: #7c7c7c;
+  --blueCard: #ddf8fe;
+  --purple: rgb(238 210 255);
+  --boxShadow: 0px 19px 60px rgb(0 0 0 / 8%);
+  --cardColor: rgba(42, 31, 252, 0.45);
+  --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
+}
 
-*{
+* {
   margin: 0;
   padding: 0;
-  font-family: './font/Foundry-Font',;
-  }
-  a{
-    text-decoration: none;
-  }
-.App{
+  font-family: "./font/Foundry-Font";
+}
+a {
+  text-decoration: none;
+}
+.App {
   overflow: hidden;
 }
-.sizedbox{
+.sizedbox {
   margin-top: 6rem;
 }
-.button{
+.button {
   display: flex;
-  font-family: 'Hando';
+  font-family: "Hando";
   background: transparent;
   border: 1px solid var(--seccolor);
   border-radius: 10px;
@@ -41,10 +41,10 @@
   padding: 6px;
   font-size: 17px;
   /* background: linear-gradient(90deg, var(--maincolor) 0.00%, var(--maincolor) 100.00%); */
-  transition: ease .50s; 
+  transition: ease 0.5s;
 }
 
-.button:hover{
+.button:hover {
   transform: scale(1.15);
   background: var(--maincolor);
   cursor: pointer;
